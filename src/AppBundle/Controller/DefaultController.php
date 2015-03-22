@@ -52,4 +52,12 @@ class DefaultController extends Controller
         return $this->render('default/nosorozec-indyjski.html.twig');
     }
 
+    /**
+     * @Route("/szarancza-pustynna.html", name="szarancza-pustynna")
+     */
+    public function  szaranczaPustynnaAction()
+    {
+        return $this->render('default/szarancza-pustynna.html.twig');
+    }
+
 }
