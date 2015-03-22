@@ -15,5 +15,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/index.html.twig');
     }
+    
+     /**
+     * @Route("/waran.html", name="waran")
+     */
+    public function waranAction()
+    {
+        return $this->render('default/waran.html.twig');
+    }
 
 }
