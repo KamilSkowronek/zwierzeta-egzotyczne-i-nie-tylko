@@ -15,6 +15,10 @@ class DefaultController extends Controller
     {
         return $this->render('default/index.html.twig');
     }
+
+    /*
+     *  <----------------------MICHAŁ SKOWRON---------------------->
+     */
     
      /**
      * @Route("/waran.html", name="waran")
@@ -22,6 +26,30 @@ class DefaultController extends Controller
     public function waranAction()
     {
         return $this->render('default/waran.html.twig');
+    }
+
+    /*
+     *  <----------------------ARKADIUSZ RYPULAK---------------------->
+     */
+
+
+
+    /*
+     *  <----------------------KAMIL SKOWRONEK---------------------->
+     */
+
+
+
+    /*
+     *  <---------------------BARTŁOMIEJ PAZIEWSKI---------------------->
+     */
+
+    /**
+     * @Route("/nosorozec-indyjski.html", name="nosorozec-indyjski")
+     */
+    public function  nosorozecIndyjskiAction()
+    {
+        return $this->render('default/nosorozec-indyjski.html.twig');
     }
 
 }
