@@ -31,7 +31,14 @@ class DefaultController extends Controller
     /*
      *  <----------------------ARKADIUSZ RYPULAK---------------------->
      */
-
+    
+    /**
+     * @Route("/guzuec.html", name="guziec")
+     */
+    public function guziecAction()
+    {
+        return $this->render('default/guziec.html.twig');
+    }
 
 
     /*
