@@ -1,6 +1,6 @@
 Feature: Web pages
 
-  Scenario: waran
+  Scenario: skorpion
     Given I am on homepage
-    When I follow "Waran"
-    Then I should see "Waran z Komodo"
+    When I follow "skorpion"
+    Then I should see "skorpion cesarski"
