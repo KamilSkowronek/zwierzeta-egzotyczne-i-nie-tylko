@@ -45,7 +45,13 @@ class DefaultController extends Controller
      *  <----------------------KAMIL SKOWRONEK---------------------->
      */
 
-
+     /**
+     * @Route("/skorpion.html", name="skorpion")
+     */
+    public function skorpionAction()
+    {
+        return $this->render('default/skorpion.html.twig');
+    }
 
     /*
      *  <---------------------BARTŁOMIEJ PAZIEWSKI---------------------->
