@@ -27,6 +27,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/waran.html.twig');
     }
+    
+      /**
+     * @Route("/kobra-krolewska.html", name="kobra")
+     */
+    public function kobraAction()
+    {
+        return $this->render('default/kobra-krolewska.html.twig');
+    }
 
     /*
      *  <----------------------ARKADIUSZ RYPULAK---------------------->
