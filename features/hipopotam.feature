@@ -1,5 +1,6 @@
 Feature: Web pages
 
-  Scenario: Hipopotam Nilowy
-    Given I am on "hipopotam.html"
-    Then I should see "Hipopotam nilowy"
+  Scenario: Hipopotam Nilowy 
+    Given I am on homepage
+    When I follow "Hipopotam"
+    Then I should see "Hipopotam"
