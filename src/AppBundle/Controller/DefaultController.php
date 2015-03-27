@@ -59,7 +59,15 @@ class DefaultController extends Controller
     /*
      *  <----------------------KAMIL SKOWRONEK---------------------->
      */
-
+     
+    /**
+     * @Route("/anakonda-zielona.html", name="anakondazielona")
+     */
+    public function anakondaAction()
+    {
+        return $this->render('default/anakonda-zielona.html.twig');
+    }
+    
      /**
      * @Route("/skorpion.html", name="skorpion")
      */
